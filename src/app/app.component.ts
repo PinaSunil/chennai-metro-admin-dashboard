@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
+  imports: [RouterOutlet, LoginPageComponent, DashboardComponent],
 })
 export class AppComponent {
   title = 'metro-loginPage';
