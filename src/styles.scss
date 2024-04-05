@@ -72,17 +72,20 @@ $metro-loginPage-theme: mat.define-light-theme((
 }
 
 
-
+// ::-webkit-scrollbar {
+//   display: none;
+// }
 
 
 html,
 body {
   height: 100%;
-}
-body {
+  // overflow-x:hidden; 
+
+  background: #f7f8fa;
   margin: 0;
   padding: 0;
   font-family: Poppins, "Helvetica Neue", sans-serif;
-  // background-color: rgb(1, 5, 33);
+ 
 
 }
